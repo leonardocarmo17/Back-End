@@ -1,68 +1,170 @@
-# CodeIgniter 4 Application Starter
+**Desenvolvedor Back End Jr - Desafio**
 
-## What is CodeIgniter?
+---
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+### 1. Introdução
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Essa API foi desenvolvida para um sistema de gerenciamento de pedidos, clientes e produtos por meio de endpoints RESTful, permitindo operações CRUD (Create, Read, Update, Delete). O retorno dos dados segue um formato estruturado com parâmetros, mensagem e retorno, conforme exigido no desafio. Além disso, os endpoints contam com filtragem de dados no método GET.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+### 2. Recursos e Funcionalidades
 
-## Installation & updates
+- Conta com diversos recursos que garantem a segurança dos dados.
+- A autenticação JWT faz com que apenas os usuários autenticados possam acessar os endpoints protegidos.
+- Garante que apenas dados válidos sejam armazenados no banco.
+- A tabela de pedidos está diretamente relacionada às tabelas clientes e produtos.
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+---
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+### 3. Tecnologias Utilizadas
 
-## Setup
+- PHP 8.0.30 ou superior
+- Banco de dados MySQL
+- CodeIgniter 4.4.8
+- Composer (Para a biblioteca firebase/php-jwt)
+- Extensões necessárias para o php.ini (intl, mysqli, mbstring)
+- Visual Studio Code
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+---
 
-## Important Change with index.php
+### 4. Configuração do Banco de Dados
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+#### 4.1 Migrations
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+As tabelas foram criadas utilizando Migrations. Ao executar o comando no terminal do projeto `php spark migrate`, as tabelas são criadas dentro do banco de dados.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+#### 4.2 Autenticação JWT
 
-## Repository Management
+Para a autenticação JWT, foi criada uma tabela contendo os seguintes campos: `id`, `nome`, `email`, `senha` e `token_criado`. O token não é enviado ao banco quando cadastrado, é gerado apenas no login e depois salvo no banco de dados.
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+---
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+### 5. Como executar o Projeto
 
-## Server Requirements
+#### 5.1 Instalação do ambiente
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+- Caso não tenha o PHP instalado, pode instalar da internet e seguir as instruções de instalação.
+- Caso contrário, baixe as pastas `php` e `backend`.
+- Extraia a pasta `php` para o diretório `C:\`.
+- Extraia a pasta `desafio` para um lugar de sua preferência.
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+#### 5.2 Configuração do banco de dados
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+- Conecte-se localmente no Workbench.
+- Crie um schema chamado `backend`.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+#### 5.3 Configuração do Ambiente
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- Abra a pasta `backend` no Visual Studio Code.
+- No terminal do Visual Studio, digite os seguintes comandos:
+- $env:PATH += ";C:\\php"
+- php spark migrate
+- php -S localhost:8000 -t public
+- O primeiro adiciona temporariamente o caminho do PHP para o ambiente do projeto, o segundo executa as migrations e cria as tabelas no banco de dados, o terceiro inicia o servidor na porta 8000.
+
+#### 5.4 Inserção dos Dados no Workbench (Opcional)
+
+1. Acesse a pasta do projeto e encontre o arquivo `dadosInserir.sql`.
+2. Abra o arquivo e copie todo o conteúdo.
+3. Conecte-se ao seu banco de dados local.
+4. Crie uma nova aba de query (`File > New Query Tab`).
+5. Cole o código copiado na aba de query.
+6. Clique no ícone "Executar".
+
+#### 5.5 Possíveis Erros
+
+- Se houver erro de conexão com o banco de dados, verifique no arquivo `.env`, a porta do banco de dados pode estar diferente.
+- Caso não tenha conseguido criar uma conexão localmente, instale o XAMPP e inicie o MySQL.
+
+---
+
+### 6. Como acessar as APIs
+
+Esse projeto utiliza o Insomnia, mas pode ser testado em qualquer programa de sua preferência.
+
+#### 6.1 Cadastro
+
+- Endpoint: `POST /registrar`
+- URL: `http://localhost:8000/registrar`
+- Envie os dados conforme exigido no campo de resposta da API.
+
+#### 6.2 Login
+
+- Endpoint: `POST /login`
+- Após o login, a API retorna um token de acesso.
+
+#### 6.3 Utilizando o token
+
+- No Insomnia, vá à aba Headers.
+- Adicione um novo header com:
+  - **Key**: `Authorization`
+  - **Value**: `Bearer seu_token`
+
+#### 6.4 Validando o token
+
+- Endpoint: `GET /user`
+- Se o token JWT for válido, retorna os dados do usuário.
+
+---
+
+### 7. Estrutura da URL
+
+A API possui três endpoints protegidos para quem possui um token JWT válido:
+
+- **Pedidos** (`/pedidos`)
+- **Produtos** (`/produtos`)
+- **Clientes** (`/clientes`)
+
+Cada endpoint possui operações CRUD.
+
+---
+
+### 8. Métodos Disponíveis
+
+#### 8.1 GET, POST, PUT e DELETE
+
+- Caso esteja em dúvidas sobre qual rota está disponível, vá em /home e veja as rotas disponíveis.
+
+### 8.2 Buscas Personalizadas
+
+- Listar todos os IDs: `/pedidos`
+- Listar 10 IDs da posição 11 a 20: `/pedidos?limit=10&page=2`
+- Buscar apenas 1 ID: `/pedidos/2`
+
+---
+
+### 9. Tratamento de Erros
+
+- Se os dados enviados forem inválidos, a API retorna uma mensagem explicativa.
+- Se o token JWT estiver inativo, a requisição resultará em erro.
+
+---
+
+### 10. Arquitetura da API
+
+- Utiliza Middlewares para autenticação JWT.
+- Migrations para versionamento do banco.
+- A estrutura do projeto segue o padrão MVC.
+---
+
+### 11. Exemplo de Resposta da API
+```
+{
+  "parametro": {
+    "metodo": "GET",
+    "rota": "clientes/"
+  },
+  "cabecalho": {
+    "status": 200,
+    "mensagem": {
+      "Página": null,
+      "Página por ID": "todos",
+      "Total de dados": 0
+    }
+  },
+  "retorno": []
+}
+```
+Essa estrutura é mantida para todas as respostas da API.
+
