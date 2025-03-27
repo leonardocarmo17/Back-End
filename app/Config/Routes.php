@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'RotaErro::rota');
-
+$routes->get('/home','RotaErro::rota');
 
 // TODOS OS DADOS
 
