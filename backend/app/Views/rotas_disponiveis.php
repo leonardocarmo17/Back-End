@@ -6,7 +6,7 @@
     <title>Rotas Disponíveis</title>
     
     <!-- Incluindo CSS Responsivo -->
-    <link rel="stylesheet" href="<?= base_url('assets/css/erro.css') ?>">
+    <link rel="stylesheet" href="/assets/css/erro.css">
 </head>
 <body>
     <h1>Rotas Disponíveis (Privadas)</h1>

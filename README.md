@@ -47,7 +47,7 @@ Para a autenticação JWT, foi criada uma tabela contendo os seguintes campos: `
 - Caso não tenha o PHP instalado, pode instalar da internet e seguir as instruções de instalação.
 - Caso contrário, baixe as pastas `php` e `backend`.
 - Extraia a pasta `php` para o diretório `C:\`.
-- Extraia a pasta `desafio` para um lugar de sua preferência.
+- Extraia a pasta `backend` para um lugar de sua preferência.
 
 #### 5.2 Configuração do banco de dados
 
@@ -65,7 +65,7 @@ Para a autenticação JWT, foi criada uma tabela contendo os seguintes campos: `
 
 #### 5.4 Inserção dos Dados no Workbench (Opcional)
 
-1. Acesse a pasta do projeto e encontre o arquivo `dadosInserir.sql`.
+1. Acesse a pasta do projeto e encontre o arquivo `inserir.sql`.
 2. Abra o arquivo e copie todo o conteúdo.
 3. Conecte-se ao seu banco de dados local.
 4. Crie uma nova aba de query (`File > New Query Tab`).
