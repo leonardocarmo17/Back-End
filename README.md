@@ -74,7 +74,7 @@ Para a autenticação JWT, foi criada uma tabela contendo os seguintes campos: `
 
 #### 5.5 Possíveis Erros
 
-- Se houver erro de conexão com o banco de dados, verifique no arquivo `.env`, a porta do banco de dados pode estar diferente.
+- Se houver erro de conexão com o banco de dados, verifique no arquivo `.env`, se os dados como hostname, database, root, password e port estão corretos com o seu banco de dados.
 - Caso não tenha conseguido criar uma conexão localmente, instale o XAMPP e inicie o MySQL.
 
 ---
