@@ -1,0 +1,997 @@
+CRITICAL - 2025-03-16 21:25:36 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(22): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:25:37 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(22): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:01 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(22): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(22): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:02 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(22): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(29): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(29): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:27 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(29): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(28): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:45 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(28): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:26:46 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(28): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:06 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(28): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:07 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(28): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(895): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(37): CodeIgniter\Model->__get('model')
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:17 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(895): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(37): CodeIgniter\Model->__get('model')
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(28): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AuthModel.php(28): CodeIgniter\Model->__call('respond', [...])
+ 4 APPPATH\Controllers\AuthController.php(85): App\Models\AuthModel->registrar([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(64): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:29 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(64): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(64): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:30 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(64): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(64): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:27:39 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 941.
+ 1 SYSTEMPATH\Model.php(714): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(920): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\AuthController.php(64): CodeIgniter\Model->__call('where', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:29:52 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:29:53 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:30:11 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:30:11 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:30:12 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:30:58 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:30:59 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:32:07 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:32:07 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:33:32 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:33:33 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:33:48 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:33:49 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:35:32 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:35:43 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:35:43 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:35:53 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:35:54 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:35:54 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:36:59 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:37:00 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:38:02 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:38:02 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::registrar
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\AuthController.php(82): CodeIgniter\Model->__call('registrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:40:14 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:40:15 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 42.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:40:40 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:40:40 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:40:54 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 2.
+ 1 VENDORPATH\composer\ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('C:\\dia 12\\vendor\\composer/../../app/Models/UserModel.php')
+ 2 APPPATH\Controllers\AuthController.php(16): Composer\Autoload\ClassLoader->loadClass('App\\Models\\UserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:40:55 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 2.
+ 1 VENDORPATH\composer\ClassLoader.php(427): {closure:Composer\Autoload\ClassLoader::initializeIncludeClosure():575}('C:\\dia 12\\vendor\\composer/../../app/Models/UserModel.php')
+ 2 APPPATH\Controllers\AuthController.php(16): Composer\Autoload\ClassLoader->loadClass('App\\Models\\UserModel')
+ 3 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:56:01 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:56:02 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:16 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:17 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:37 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:38 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:38 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:39 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:39 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:49 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:50 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:57:50 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:32 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:32 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:37 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: registrar]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\AuthController.php(81): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:38 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: registrar]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\AuthController.php(81): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:38 --> CodeIgniter\HTTP\Exceptions\HTTPException: Failed to parse JSON string. Error: Syntax error
+[Method: POST, Route: registrar]
+in SYSTEMPATH\HTTP\IncomingRequest.php on line 537.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(537): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidJSON('Syntax error')
+ 2 APPPATH\Controllers\AuthController.php(81): CodeIgniter\HTTP\IncomingRequest->getJSON(true)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:40 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:41 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:58:41 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:59:25 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::respond
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Models\UserModel.php(45): CodeIgniter\Model->__call('respond', [...])
+ 2 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:59:26 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::respond
+[Method: POST, Route: registrar]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Models\UserModel.php(45): CodeIgniter\Model->__call('respond', [...])
+ 2 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:59:39 --> Error: Call to undefined function App\Models\where()
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 21:59:39 --> Error: Call to undefined function App\Models\where()
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 43.
+ 1 APPPATH\Controllers\AuthController.php(82): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:09:20 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\UserModel::respond
+[Method: GET, Route: user]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Models\UserModel.php(126): CodeIgniter\Model->__call('respond', [...])
+ 2 APPPATH\Controllers\AuthController.php(43): App\Models\UserModel->getUser('Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDIxNzEzMDYsImV4cCI6MTc0MjE3ODUwNiwic3ViIjoiMiIsImVtYWlsIjoiTEVzb24iLCJub21lIjoiTCJ9.huBZ2BkRnHqN2BK74bLbrjXXq6R8ZMlR--fNUfTw3Sw')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->getUser()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:11:33 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\AuthController.php(30): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:11:56 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\AuthController.php(30): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:12:06 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\AuthController.php(38): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:12:10 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\AuthController.php(38): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:12:36 --> Error: Call to a member function where() on null
+[Method: POST, Route: registrar]
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\AuthController.php(38): App\Models\UserModel->registrar([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registrar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:21:29 --> TypeError: service(): Argument #1 ($name) must be of type string, array given, called in C:\dia 12\app\Filters\JwtFilter.php on line 37
+[Method: GET, Route: clientes]
+in SYSTEMPATH\Common.php on line 997.
+ 1 APPPATH\Filters\JwtFilter.php(37): service([...])
+ 2 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('clientes', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
+CRITICAL - 2025-03-16 22:21:30 --> TypeError: service(): Argument #1 ($name) must be of type string, array given, called in C:\dia 12\app\Filters\JwtFilter.php on line 37
+[Method: GET, Route: clientes]
+in SYSTEMPATH\Common.php on line 997.
+ 1 APPPATH\Filters\JwtFilter.php(37): service([...])
+ 2 SYSTEMPATH\Filters\Filters.php(241): App\Filters\JwtFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('clientes', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(62): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\dia 12\\public\\index.php')
